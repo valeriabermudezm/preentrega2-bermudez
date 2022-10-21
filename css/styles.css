@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #F1EFE9;
+}
+
+.navbar-brand{
+    color: #70825B;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    /*font-size: 0.9rem;
+    letter-spacing: 1rem;
+    */
+}
+
+.nav-link{
+    color: #70825B;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    /*font-weight: 300; 
+    margin: 20px;*/
+}
+
+.logo-header {
+    width: 60px;
+    margin: 20px 10px 20px 10px;/* */
+}
+
+a:hover{
+    color: #94A384;
+    text-decoration: none;
+}
+
+a, a:active {
+    text-decoration: none;
+    color: #94A384;
+}
+
+/*Fin head*/
+
+/*Inicio main index*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 300px 0;
+}
+
+.textoprincipal-inicio {
+    width: 50%;
+    text-align: center;
+    color: #70825B;
+    font-family: 'Vidaloka', serif;
+    font-size: 3rem;
+}
+
+.salto_linea{
+    display: block;
+    margin-top: 30px;
+}
+
+.lista-imagenes img {
+    object-fit: cover;
+    width: 33.33%;
+}
+
+.lista-imagenes {
+    display: flex;
+    overflow: auto;
+}
+
+.contenedorfinal-inicio {
+    background-color: #94A384;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+
+.textofinal-inicio{
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Vidaloka', serif;
+    font-size: 3rem;
+}
+
+.botondecontacto-inicio {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 40% 0 0 0;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    align-items: center;
+    box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+.botondecontacto-inicio:hover {
+    transform: scale(1.2);
+}
+
+/*Fin main index*/
+
+
+/*Inicio de títulos de las páginas*/
+
+.titulo-de-seccion {
+    display: block;
+    color: #70825B;
+    font-family: 'Vidaloka', serif;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.h2, h2 {
+    font-size: 3rem;
+}
+
+/*Fin de títulos de las páginas*/
+
+
+/*Inicio portafolio*/
+
+.contenedor_imas_porta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imas_portafolio{
+    width: 50%;
+}
+
+/*Fin portafolio*/
+
+
+/*Inicio servicios*/
+.bloque_imas_servicios{
+    width: 100%;
+    background-color: #F1EFE9;
+    display: flex;
+}
+
+.imas_servicios{
+    width: 50%;
+}
+
+.imas_servicios:hover{
+    width: 55%;
+}
+
+.bloque_imas_servicios_dere{
+    width: 100%;
+    display: flex;
+}
+
+/*.imas_servicios_dere{
+    width: 50%;
+    float: right;
+}*/
+
+.verde{
+    background-color: #70825B;
+    display: flex;
+}
+
+.beige{
+    background-color: #DFD8C6;
+}
+
+.texto_serv_dere{
+    display: flex;
+    color: #70825B;
+    font-family: 'Vidaloka', serif;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    margin: 50% 0;
+}
+
+.texto_serv_dere_blanco{
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Vidaloka', serif;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40%;
+    margin: 100% 0;
+}
+/*Fin servicios*/
+
+
+/*Inicio sobre mí*/
+
+.card-sobre-mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sobre-mi--imagen{
+    width: 35vw;
+    margin: 2% 8% 5% 10%;
+}
+
+.card-sobre-mi--texto {
+    margin-right: 10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.card-sobre-mi--texto p{
+    margin-bottom: 4%;
+}
+
+.card-sobre-mi--texto-bienvenidos{
+    color: #70825B;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 8%;
+    letter-spacing: 0.05rem;
+}
+/*Fin sobre mí*/
+
+
+
+/*Inicio contáctanos*/
+
+
+.df-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-form{
+    width: 80vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido_del_form{
+    width: 50%;
+    align-items: center;
+}
+
+.separacion_items{
+    margin: 30px 0;
+}
+
+.input_form{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 12px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    outline: none;
+}
+
+textarea{
+    display: block;
+    resize: none;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 12px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.boton-enviar-form {
+    align-items: center;
+    text-align: center;
+
+}
+
+.boton_form{
+    background-color: #70825B;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 30px 0;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    box-shadow: 0 0px 0px 0 rgba(55, 97, 23, 0.363), 0 0px 20px 0 rgba(55, 97, 23, 0.19);
+}
+
+
+/*Fin contáctanos*/
+
+
+/*Inicio footer*/
+
+.bg-footer {
+    background-color: #F1EFE9;
+    width: 100%;
+    padding: 8%;
+}
+
+.logo-footer{
+    width: 122px;
+    height: 120px;
+}
+.h3, h3 {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.contact-footer{
+    width: 38%;
+    color: #94A384;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+
+.sobremi-footer{
+    color: #94A384;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    width: 50%;
+}
+
+.margin_text_footer{
+    margin-top:10%;
+}
+
+.margin_text_footer_mail{
+    margin-top:0;
+}
+
+.redes a i {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 10% 0 0;
+}
+
+.redes p{
+    color: #94A384;
+    padding: 10% 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.25rem;
+}
+
+.redes a i:hover {
+    transform: scale(1.2);
+}
+
+/*Fin footer*/
